@@ -3,7 +3,7 @@ Type: Package
 Title: fars 
 Version: 0.1.0
 Author: Nobuhiro Kikuchi
-Maintainer: Nobuhiro Kikuchi <nobuhk@uw.edu>
+Maintainer: Nobuhiro Kikuchi <nobu_kikuchi@hotmail.co.jp>
 Description: Utility functions to manipulate 
 and visualize Fatality Analysis Report System data.
 License: APGL-3
