@@ -21,7 +21,7 @@ This function
 If the file does not exists throws an error
 }
 \examples{
-path <- system.file("extdata", "accident_2013.csv.bz2", package = "CourseraFARS")
+path <- system.file("extdata", "accident_2013.csv.bz2", package = "fars")
 
 fars_read(path)
 }
