@@ -14,7 +14,7 @@
 #' @return At tibble object (data.frame) of the CSV file data
 #'
 #' @examples
-#' path <- system.file("extdata", "accident_2013.csv.bz2", package = "fars")
+#' path <- system.file("extdata", "accident_2013.csv.bz2",  package = "fars")
 #'
 #' fars_read(path)
 #' @export

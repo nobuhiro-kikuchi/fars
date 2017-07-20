@@ -1,5 +1,8 @@
 # Coursera's assignment on "Building R Packages" course
 
+![Travis-CI Build Status](https://travis-ci.org/nobuhiro-kikuchi/fars.svg?branch=master)
+
+
 Cousera FARS is a package that lets you:
 
 - Read
