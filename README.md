@@ -16,7 +16,7 @@ part of the [Mastering Software Development in R Specialization][specialization]
 
 FARS data needs to be in your working directory. It is located under "inst/extdata". You can access them with the `system.file` function.
 
-```{r, eval=FALSE}
+```{r, eval=FALSE }
 system.file("extdata", "accident_2013.csv.bz2", package = "fars")
 ```
 
@@ -26,15 +26,6 @@ system.file("extdata", "accident_2013.csv.bz2", package = "fars")
 The `fars_read` function to import a dataset, with filename parameter. 
 See vignette for examples.
 
-```{r, eval=FALSE}
-library(fars)
-library(dplyr)
-
-path <- system.file("extdata", "accident_2013.csv.bz2", package = "fars")
-dataset <- fars_read(path)
-
-dplyr::glimpse(dataset)
-```
 
 ## Summarizing data
 
